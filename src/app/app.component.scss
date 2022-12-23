@@ -84,16 +84,16 @@
 }
 
 .playlist-list{
-    font-family: circular-medium;
+    font-family: circular-light;
     font-size: 15px;
     padding-bottom: 0.5em;
-    font-weight: lighter;
+    font-weight: 900;
 }
 
 .top-menu{
     position: inherit;
-    // background-color: #1e1e1e;
-    background-color: beige;
+    background-color: #1e1e1e;
+    // background-color: beige;
     height: 5em;
     display: grid;
     width: 100vw;
@@ -109,6 +109,38 @@
     right: 30px;
     top: 15px;
     // border-radius: 42px;
+}
+
+// .drop-profile{
+//     right: 0.8em;
+// }
+
+img.profile-img {
+    width: 2em;
+    left: -9px;
+    top: -3px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.profile-btn{
+    border-radius: 25px;
+    border: rgba(0, 0, 0, 0.7);
+    height: 2.5em;
+    font-size: 15px;
+    font-family: circular-medium;
+    background-color: rgba(0,0,0,.7);
+}
+
+.ext-links{
+    position: absolute;
+    right: 10px;
+}
+
+.dropdown-item{
+    font-size: 15px;
+    font-family: circular-light;
+    font-weight: 900;
 }
 .container-fluid.dsb {
     // background: linear-gradient(to bottom, #2b484f, #121212) no-repeat bottom;
