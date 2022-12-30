@@ -1,0 +1,35 @@
+
+{
+    "TopMix" : [ 
+        {
+            "img":"../../assets/cover/Why-Dont-We.jfif",
+            "title":"Why Don't We Mix",
+            "descp":"Troye Sivan, Anne-Marie, vaultboy and more."
+        },
+        {
+            "img":"../../assets/cover/5-SOS.jfif",
+            "title":"Happy mix",
+            "descp":"Salena Gomez, TWICE, YAOSOBI"
+        },
+        {
+            "img":"../../assets/cover/Good-times.jfif",
+            "title":"Good Times",
+            "descp":"The happiest hit to boost your day."
+        },
+        {
+            "img":"../../assets/cover/viral-50-my.jpg",
+            "title":"Viral 50 - Malaysia",
+            "descp":"Your daily update of the most viral tracks right now - Malaysia."
+        },
+        {
+            "img":"../../assets/cover/king-gnu.jfif",
+            "title":"King Gnu Mix",
+            "descp":"Aimer, milet, majiko and more."
+        },
+        {
+            "img":"../../assets/cover/insomniacks.jfif",
+            "title":"Insomniacks Mix",
+            "descp":"Hyper Acts, Munif Ahmad, Bunkface and more."
+        }
+    ]
+}
