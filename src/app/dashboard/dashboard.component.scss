@@ -3,6 +3,11 @@ h1,h2,h3,h4,h5,h6,span{
     color: #fff;
 }
 
+small{
+    font-family: circular-light;
+    color: #969696;
+}
+
 .container{
     margin: 0 3em;
     padding-top: 2.5em;
@@ -21,4 +26,57 @@ h1,h2,h3,h4,h5,h6,span{
 
 .cover-name{
     padding-left: 1em;
+}
+
+.dash-title{
+    margin: 1em 0;
+}
+
+.card-box{
+    background-color: #2d3132;
+    width: 12em;
+    position: relative;
+    border-radius: 4px;
+}
+
+.card-box-1{
+    background-color: #2d3132;
+    width: 12em;
+    position: relative;
+    margin-left: 1em;
+    border-radius: 4px;
+}
+
+.card-img{
+    position: relative;
+    margin-left: 15px;
+    margin-top: 1em;
+    width: 10em;
+    margin-bottom: 1em;
+    border-radius: 3px;
+}
+
+.dash-descp{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #fff;
+    padding-left: 1em;
+}
+
+.dash-playlist{
+    position: absolute;
+}
+
+.descp{
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+.small-text{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-right: 1em;
+    color: #969696;
 }

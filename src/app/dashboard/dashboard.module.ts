@@ -3,13 +3,13 @@ import { CommonModule } from '@angular/common';
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-
 @NgModule({
   imports: [
     CommonModule,
-    DashboardRoutingModule,
+    // DashboardRoutingModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+  
   ],
   declarations: [
     DashboardComponent,

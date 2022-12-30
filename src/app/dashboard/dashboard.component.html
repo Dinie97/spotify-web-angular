@@ -1,9 +1,9 @@
 <div class="container">
-    <div class="row" style="margin-bottom: 1rem;">
+    <div class="row" style="margin-bottom: 1rem;  ">
         <h3>Good Afternoon</h3>
     </div>
 
-    <div class="row" style="margin-bottom: 1rem;">
+    <div class="row" style="margin-bottom: 1rem; padding-right: 1em;">
         <div class="col-md-4">
             <div class="playlist-dashboard">
                     <img src="../../assets/cover/cover-1.jpg" class="cover-photo">
@@ -23,7 +23,7 @@
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row" style="padding-right: 1em;">
         <div class="col-md-4">
             <div class="playlist-dashboard">
                     <img src="../../assets/cover/cover-4.jpg" class="cover-photo">
@@ -43,4 +43,25 @@
             </div>
         </div>
     </div>
+
+    <div class="row">
+        <h4 class="dash-title">Your top mixes</h4>
+    </div>
+
+    <div class="row dash-playlist">
+        <div class="col-md-2" *ngFor="let card of topMix">
+            <div class="card-box" >
+                <img class="card-img" src="{{card.img}}">
+                <div class="dash-descp">
+                    <span>{{card.title}}</span>
+                </div>  
+                <div class="descp">
+                    <div class="small-text">
+                        <small style="font-weight: 700;">{{card.descp}}</small>
+                    </div>
+                </div>
+           </div>           
+        </div>
+    </div>
+
 </div>
