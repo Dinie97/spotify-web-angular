@@ -1,12 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { MainPageComponent } from './dashboard/main-page/main-page.component';
+import { SearchComponent } from './search/search.component';
+import { PlaylistComponent } from './playlist/playlist.component';
+import { LibraryComponent } from './library/library.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'dashboard', component: DashboardComponent },
-  { path: 'main', component: MainPageComponent}
+  { path: 'search', component: SearchComponent},
+  { path: 'library', component: LibraryComponent},
+  { path: 'playlist', component: PlaylistComponent}
 ];
 
 @NgModule({

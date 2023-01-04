@@ -1,0 +1,76 @@
+{
+    "Browse" : [ 
+        {
+            "img":"../../assets/search/1.jfif",
+            "title":"Pop"
+        },
+        {
+           "img":"../../assets/search/2.jfif",
+            "title":"Fresh Finds"
+        },
+        {
+           "img":"../../assets/search/3.jfif",
+            "title":"Podcasts"
+        },
+        {
+           "img":"../../assets/search/4.jfif",
+            "title":"Mood"
+        },
+        {
+           "img":"../../assets/search/5.jfif",
+            "title":"R&B"
+        },
+        {
+           "img":"../../assets/search/6.jfif",
+            "title":"K-Pop"
+        },
+        {
+           "img":"../../assets/search/7.jfif",
+            "title":"Malay Pop"
+        },
+        {
+           "img":"../../assets/search/8.jfif",
+            "title":"Trending"
+        },
+        {
+           "img":"../../assets/search/9.jfif",
+            "title":"Chill"
+        },
+        {
+           "img":"../../assets/search/10.jfif",
+            "title":"Sleep"
+        },
+        {
+           "img":"../../assets/search/11.jfif",
+            "title":"Rock"
+        },
+        {
+           "img":"../../assets/search/12.jfif",
+            "title":"Anime"
+        },
+        {
+           "img":"../../assets/search/13.jfif",
+            "title":"Netflix"
+        },
+        {
+           "img":"../../assets/search/14.jfif",
+            "title":"Disney"
+        },
+        {
+           "img":"../../assets/search/15.jfif",
+            "title":"Summer"
+        },
+        {
+           "img":"../../assets/search/16.jfif",
+            "title":"Travel"
+        },
+        {
+           "img":"../../assets/search/17.jfif",
+            "title":"Romance"
+        },
+        {
+           "img":"../../assets/search/18.jfif",
+            "title":"TV & Movies"
+        }
+    ]
+}

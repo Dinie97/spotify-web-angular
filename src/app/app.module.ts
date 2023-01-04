@@ -6,11 +6,17 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { SearchComponent } from './search/search.component';
+import { LibraryComponent } from './library/library.component';
+import { PlaylistComponent } from './playlist/playlist.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    SearchComponent,
+    LibraryComponent,
+    PlaylistComponent
   ],
   imports: [
     BrowserModule,
