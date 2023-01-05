@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'search', component: SearchComponent},
   { path: 'library', component: LibraryComponent},
-  { path: 'playlist', component: PlaylistComponent}
+  { path: 'playlist/:id', component: PlaylistComponent}
 ];
 
 @NgModule({

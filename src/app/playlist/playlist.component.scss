@@ -1,0 +1,76 @@
+.container{
+    margin: 0 3em;
+    padding-top: 2.5em;
+    padding-bottom: 7em;
+}
+
+.play-cover{
+    width: 15em;
+}
+
+.play-title{
+    padding-left: 4em;
+    padding-top: 2em;
+}
+
+.icon-spotify{
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.fa-spotify{
+    color: #1ed760;
+    font-size: 1.5em;
+    margin-right: 8px;
+}
+
+.fa-circle {
+    padding: 1em;
+    font-size: 4px;
+    color: #fff;
+}
+
+.fa-circle-play{
+    font-size: 3.5em;
+    color: #1ed760;
+    margin-right: 0.8em;
+}
+
+.fa-heart {
+    font-size: 2em;
+    margin-right: 0.8em;
+}
+
+.fa-ellipsis{
+  font-size: 1.5em;
+}
+
+.table-row{
+    padding-left: 1em;
+    padding-top: 2em;
+}
+
+thead{
+    font-family: circular-light;
+    color: #afafaf ;
+    font-size: 12px;
+    border-bottom: 1px solid;
+}
+
+tbody{
+    position: relative;
+    top: 1em;
+}
+
+.play-no{
+    color: #b3b3b3;
+    height: 4em;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+tr:hover{
+    background-color: #b3b3b31c;
+}
