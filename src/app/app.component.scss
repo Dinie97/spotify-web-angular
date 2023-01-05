@@ -289,9 +289,14 @@ footer .container{
 }
 .progress{
     height: 4px;
+    background-color: #5e5e5e;
 }
 
 .progress-bar{
+    background-color: #fff;
+}
+
+.progress-bar:hover{
     background-color: #1ed760;
 }
 
