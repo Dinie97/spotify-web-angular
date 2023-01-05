@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Routes } from '@angular/router';
+import { Router, Routes } from '@angular/router';
 import playlistData  from './playlist.json'
 
 interface topMix{
@@ -22,11 +22,15 @@ export class DashboardComponent implements OnInit {
 
   listData = playlistData;
   topMix : any = [];
-  constructor() { }
+  constructor(private router: Router,) { }
 
   ngOnInit(): void {
     this.topMix =this.listData.TopMix
     console.log(this.topMix)
+  }
+
+  playlistRoute(Id : string){
+    this.router.navigate([`/playlist/${Id}`]);
   }
 
 }
