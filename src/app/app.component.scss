@@ -324,4 +324,20 @@ footer .container{
     color: #bababa;
 }
 
+@media only screen and (max-width: 1536px) and (min-width: 1200px)  {
+    .artist-info{
+        width: 25% !important;
+    }
 
+    .middle-play{
+        width: 35% !important;
+    }
+
+    .volume{
+        width: 30% !important;
+    }
+
+    .progress-play{
+        width: 70% !important;
+    }
+}
