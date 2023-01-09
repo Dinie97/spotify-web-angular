@@ -95,3 +95,53 @@ small{
 .card-box:hover {
     background-color: #282828;
 }
+
+.top-dash{
+    padding-right: 1em;
+}
+
+@media only screen and (max-width: 1536px) and (min-width: 1400px)  {
+  .card-box{
+    transform: scale(0.9);
+  }
+
+  .container{
+    padding-right: 5em;
+  }
+
+  .top-dash{
+    padding-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1200px)  {
+
+    .card-box{
+        transform: scale(0.75);
+      }
+    
+      .container{
+        padding-right: 6em;
+      }
+
+      .dash-playlist {
+        margin: -2em;
+        padding-right: 1em;
+    }
+
+    .top-dash{
+        font-size: 16px;
+    }
+
+    .playlist-dashboard{
+        font-size: 14px;
+        margin-right: -1em;
+    }
+    
+
+    .top-dash{
+        width: 90vw;
+        padding-right: 11em;
+    }
+}
