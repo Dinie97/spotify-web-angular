@@ -27,6 +27,7 @@ export class PlaylistComponent implements OnInit {
   ngOnInit(): void {
     this.getPlaylistCover();
     this.getSongList();
+
   }
 
   renderOptionText(options: Array<{ name: string }>) {
@@ -57,6 +58,8 @@ getPlaylistCover(){
 
         var follow = data.followers;
         this.likes = follow.total
+
+
 			});
 }
   getSongList(){

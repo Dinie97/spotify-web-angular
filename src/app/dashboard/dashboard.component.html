@@ -4,39 +4,39 @@
     </div>
 
     <div class="row" style="margin-bottom: 1rem; padding-right: 1em;">
-        <div class="col-md-4">
+        <div class="col-md-4 cover-top" (click)="playlistRoute('37i9dQZF1EMbhPOSXmUInX')">
             <div class="playlist-dashboard">
-                    <img src="../../assets/cover/cover-1.jpg" class="cover-photo">
+                    <img src="../../assets/cover/top song 2020.jpg" class="cover-photo">
                     <span class="cover-name">Your Top Song 2021</span>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 cover-top" (click)="playlistRoute('37i9dQZF1EuHylEQHN6rge')">
             <div class="playlist-dashboard">
                 <img src="../../assets/cover/cover-2.jpg" class="cover-photo">
                 <span class="cover-name">Your Time Capsule</span>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 cover-top" (click)="playlistRoute('37i9dQZF1DXdR77H5Z8MIM')">
             <div class="playlist-dashboard">
-                <img src="../../assets/cover/cover-3.jpg" class="cover-photo">
-                <span class="cover-name">Liked Songs</span>
+                <img src="../../assets/cover/nolja.jfif" class="cover-photo">
+                <span class="cover-name">Nolja!</span>
             </div>
         </div>
     </div>
     <div class="row" style="padding-right: 1em;">
-        <div class="col-md-4">
+        <div class="col-md-4 cover-top" (click)="playlistRoute('37i9dQZF1EZT8cSzhJA9lL')">
             <div class="playlist-dashboard">
                     <img src="../../assets/cover/cover-4.jpg" class="cover-photo">
                     <span class="cover-name">Upside Down Playlist</span>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 cover-top" (click)="playlistRoute('37i9dQZF1Epps0uHncFzmh')">
             <div class="playlist-dashboard">
                 <img src="../../assets/cover/cover-5.jpg" class="cover-photo">
                 <span class="cover-name">On Repeat</span>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 cover-top" (click)="playlistRoute('37i9dQZF1DX5KpP2LN299J')">
             <div class="playlist-dashboard">
                 <img src="../../assets/cover/cover-6.jpg" class="cover-photo">
                 <span class="cover-name">This Is Taylor Swift</span>
@@ -50,7 +50,7 @@
 
     <div class="row dash-playlist">
         <div class="col-md-2" *ngFor="let card of topMix">
-            <div class="card-box" (click)="playlistRoute('37i9dQZF1Epps0uHncFzmh')">
+            <div class="card-box" (click)="playlistRoute(card.id)">
                 <img class="card-img" src="{{card.img}}">
                 <div class="dash-descp">
                     <span>{{card.title}}</span>
@@ -70,7 +70,7 @@
 
     <div class="row dash-playlist">
         <div class="col-md-2" *ngFor="let card of topMix">
-            <div class="card-box" >
+            <div class="card-box" (click)="playlistRoute(card.id)">
                 <img class="card-img" src="{{card.img}}">
                 <div class="dash-descp">
                     <span>{{card.title}}</span>
@@ -90,7 +90,7 @@
 
     <div class="row dash-playlist">
         <div class="col-md-2" *ngFor="let card of topMix">
-            <div class="card-box" >
+            <div class="card-box" (click)="playlistRoute(card.id)">
                 <img class="card-img" src="{{card.img}}">
                 <div class="dash-descp">
                     <span>{{card.title}}</span>

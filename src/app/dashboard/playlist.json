@@ -2,33 +2,39 @@
 {
     "TopMix" : [ 
         {
+            "id":"37i9dQZF1DZ06evO1jNxJe",
             "img":"../../assets/cover/Why-Dont-We.jfif",
             "title":"This Is Why Don't We",
             "descp":"Troye Sivan, Anne-Marie, vaultboy and more."
         },
         {
+            "id":"37i9dQZF1EVJSvZp5AOML2",
             "img":"../../assets/cover/5-SOS.jfif",
             "title":"Happy mix",
             "descp":"Salena Gomez, TWICE, YAOSOBI"
         },
         {
+            "id":"37i9dQZF1DWT9NTMXOEmdE",
             "img":"../../assets/cover/Good-times.jfif",
             "title":"Good Times",
             "descp":"The happiest hit to boost your day."
         },
         {
+            "id":"37i9dQZEVXbLRmg3qDbY1H",
             "img":"../../assets/cover/viral-50-my.jpg",
             "title":"Viral 50 - Malaysia",
             "descp":"Your daily update of the most viral tracks right now - Malaysia."
         },
         {
+            "id":"37i9dQZF1DXdbRLJPSmnyq",
             "img":"../../assets/cover/king-gnu.jfif",
-            "title":"King Gnu Mix",
+            "title":"Jpop Hit",
             "descp":"Aimer, milet, majiko and more."
         },
         {
+            "id":"37i9dQZF1E4yfwJ2wmu4BX",
             "img":"../../assets/cover/insomniacks.jfif",
-            "title":"Insomniacks Mix",
+            "title":"Insomniacks Radio",
             "descp":"Hyper Acts, Munif Ahmad, Bunkface and more."
         }
     ]
