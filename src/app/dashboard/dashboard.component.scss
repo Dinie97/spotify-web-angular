@@ -29,6 +29,14 @@ small{
     padding-left: 1em;
 }
 
+.cover-top{
+    cursor: pointer;
+}
+
+.playlist-dashboard:hover{
+    background-color: #282828;
+}
+
 .dash-title{
     margin: 1em 0;
 }
@@ -38,6 +46,7 @@ small{
     width: 12em;
     position: relative;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .card-box-1{
@@ -46,6 +55,7 @@ small{
     position: relative;
     margin-left: 1em;
     border-radius: 4px;
+    
 }
 
 .card-img{
