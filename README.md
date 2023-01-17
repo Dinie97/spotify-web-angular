@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
+[screen-capture.webm](https://user-images.githubusercontent.com/51571197/212803358-41676290-631b-49d2-aa92-a634267faacd.webm)
+
 ## API Integration
 
 Used rapidAPi tu get list of song playlist on Dashboard
