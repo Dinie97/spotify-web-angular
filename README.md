@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## API Integration
 
-Used rapidAPi tu get list of song playlist on Dashboard
+Used rapidAPi to get list of song playlist on Dashboard
 
 https://rapidapi.com/Glavier/api/spotify23/
 
